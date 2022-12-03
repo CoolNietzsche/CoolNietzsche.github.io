@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9, shrink-to-fit=no">
+    <meta name="description" content="agriculture">
+    <meta name="author" content="Haile Melaku">
+    <meta name="phone" content="251908986600">
+    <title>E-Gebere</title>
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/png" href="public/img/favicon.png">
+    <!-- Bootstrap core CSS-->
+    <link href="public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template-->
+    <link href="public/vendor/fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="public/css/osahan.css" rel="stylesheet">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="public/vendor/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="public/vendor/owl-carousel/owl.theme.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@900&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+   <div id= "loading">
+      <div style="margin: 0 auto;" >
+          <div class="loader"></div>
+      </div>
+   </div>
+
+<div style="display: none;" id="body-content">
+    <nav class="navbar navbar-expand navbar-light bg-white static-top osahan-nav sticky-top">
+       &nbsp;&nbsp; 
+       <button class="btn btn-link btn-sm text-secondary order-1 order-sm-0" id="sidebarToggle">
+       <i class="fas fa-2x fa-fw fa-bars"></i>
+       </button> &nbsp;&nbsp;
+       <a class="navbar-brand mr-1" href="index.html"><img class="img-fluid" alt="" src="public/img/gebere_1.png"></a>
+       <!-- <a class="navbar-brand mr-1" href="index.html">E - Gebere</a> -->
+
+       <!-- Navbar Search -->
+
+       <!-- Navbar -->
+       <ul class="navbar-nav ml-auto ml-md-0 osahan-right-navbar" style="justify-content: flex-end; width: 90%; display: flex;">
+         <li class="nav-item mx-1">
+            <a class="nav-link" href="index.html">
+              <i class="fas fa-2x fa-fw fa-home"></i>
+               Homepage
+            </a>
+         </li>
+          <li class="nav-item mx-1">
+             <a class="nav-link" href="public/about.html">
+               <i class="fas fa-2x fa-fw fa-info-circle"></i>
+                About
+             </a>
+          </li>
+          <li class="nav-item dropdown no-arrow mx-1">
+             <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <i class="fas fa-2x fa-fw fa-tools"></i>
+               Features
+             </a>
+             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="alertsDropdown">
+               <a class="dropdown-item" href="public/weather.html"><i class="fas fa-cloud-showers-heavy"></i> &nbsp; Weather</a>
+               <a class="dropdown-item" href="public/features.html"><i class="fas fa-search"></i>&nbsp; Smart Recognition</a>
+               <a class="dropdown-item" href="public/inventory.html"><i class="fas fa-list-ol"></i> &nbsp; Inventory Management</a>
+               <a class="dropdown-item" href="public/news.html"><i class="far fa-newspaper"></i>&nbsp;News</a>
+               <a class="dropdown-item" href="public/seeds.html"><i class="fas fa-seedling"></i>&nbsp; Seed Choice</a>
+             </div>
+          </li>
+
+          <li class="nav-item dropdown no-arrow osahan-right-navbar-user">
+             <a class="nav-link dropdown-toggle user-dropdown-link" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <i class="fas fa-2x fa-fw fa-user-circle" id="avatar"></i>
+               <img src="" alt="" id="user_photo" hidden="true">
+               <span id="user_profile">User</span>
+             </a>
+             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="account.html"><i class="fas fa-fw fa-user-circle"></i> &nbsp; My Account</a>
+                <a class="dropdown-item" href="public/login.html">Login</a>
+                <a class="dropdown-item" href="public/register.html">Register</a>
+                <a class="dropdown-item" href="public/login.html">Forgot Password</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"><i class="fas fa-fw fa-sign-out-alt"></i> &nbsp; Logout</a>
+             </div>
+          </li>
+       </ul>
+    </nav>
+    <div id="wrapper">
+       <!-- Sidebar -->
+       <ul class="sidebar navbar-nav">
+          <li class="nav-item active">
+             <a class="nav-link" href="index.html">
+             <i class="fas fa-fw fa-home"></i>
+             <span>Home</span>
+             </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="public/about.html">
+            <i class="fas fa-fw fa-info-circle"></i>
+            <span>About</span>
+            </a>
+         </li>
+          
+          <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <i class="fas fa-fw fa-user"></i>
+             <span>Profile</span>
+             </a>
+             <div class="dropdown-menu">
+                <h6 class="dropdown-header">Account Settings:</h6>
+                <a class="dropdown-item" href="public/login.html">Login</a>
+                <a class="dropdown-item" href="public/register.html">Register</a>
+                <a class="dropdown-item" href="public/login.html">Forgot Password</a>
+                <div class="dropdown-divider"></div>
+             </div>
+          </li>
+
+          <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="public/features.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <i class="fas fa-fw fa-tools"></i>
+             <span>Features</span>
+             </a>
+             <div class="dropdown-menu">
+               <a class="dropdown-item" href="public/weather.html"><i class="fas fa-cloud-showers-heavy"></i> &nbsp; Weather</a>
+               <a class="dropdown-item" href="public/features.html"><i class="fas fa-search"></i>&nbsp; Smart Recognition</a>
+               <a class="dropdown-item" href="public/inventory.html"><i class="fas fa-list-ol"></i> &nbsp; Inventory Management</a>
+               <a class="dropdown-item" href="public/news.html"><i class="far fa-newspaper"></i>&nbsp;News</a>
+               <a class="dropdown-item" href="public/seeds.html"><i class="fas fa-seedling"></i>&nbsp; Seed Choice</a>
+             </div>
+          </li>
+          <div class="dropdown-divider"></div>
+       </ul>
+       <div id="content-wrapper">
+         <div class="container-fluid pb-0">        
+            <div class="row">
+               <div class="col-sm-7 col-lg-7 col-md-7" style="padding-top: 10em;">
+                  <h2 style="color: #FF7800; font-weight: bolder;">REVOLUTIONALIZING FARMING</h2>
+                  <br>
+                  <p style="color: black; font-weight: bold;">E-Gebere is a platform that leverages Technology to improve 
+                     Agriculture by implementing smart agricultral approaches and utiizing Artificial intelligence to increase control over production which leads to a better quality and quantity of product, better cost management and waste reduction. 
+                     E-Gebere is an app that brings modern farming techniques to you from anywhere in Ethiopia.
+                  </p>
+
+                  <!-- <p style="color: black; font-weight: bolder;">
+                     E-Gebere is a platform that leverages Technology by
+                     <ul style="color: black">
+                        <li>Tracking</li>
+                        <li>Monitoring</li>
+                        <li>Automating</li>
+                        <li>Analyzing</li> agricultral operations.
+                     </ul>
+                  </p> -->
+                  <!-- <br> -->
+                  <p style="color: black; font-weight: bolder;">
+                     Find out all the latest news, weather forecasts, pest and disease recognition using our state of the art AI technology and much more.
+                  </p>
+                  <br>
+                  <!-- <h2 style="color: #069732; font-weight: bolder;"></h2> -->
+                  <button class="btn btn-lg" style="outline: white; border: white 2px; background: #00ACEE; border-radius: 16px;"> <a href="public/about.html" style="color: white;  font-size:x-large;">LEARN MORE</a></button>
+               </div>
+               <div class="col-sm-5 col-lg-5 col-md-5">
+                  <img src="public/img/landing.png" alt="new_farming" style="width: 100%">
+               </div>
+               <div class="col-sm-12 col-lg-12 col-md-12">
+                  <svg id="banner_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420"><path fill="#18874a" fill-opacity="1" d="M0,192L26.7,181.3C53.3,171,107,149,160,133.3C213.3,117,267,107,320,128C373.3,149,427,203,480,229.3C533.3,256,587,256,640,229.3C693.3,203,747,149,800,128C853.3,107,907,117,960,128C1013.3,139,1067,149,1120,138.7C1173.3,128,1227,96,1280,106.7C1333.3,117,1387,171,1413,197.3L1440,224L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-sm-5 offset-sm-4">
+                  <h1 style="color: #FF7800; font-weight: bolder;">OUR FEATURES</h1>
+               </div>
+               <div class="col-sm-12 col-md-5 col-lg-5 video-card" style="margin-bottom: 2em; height: 300px; padding-top: 10%;background:linear-gradient(rgba(226,234,218,.5), rgba(226,234,218,.5)), url('public/img/inventory.png');">
+                  <h4 style = "color: black; font-weight: bolder">Inventory Management</h4>
+                  <p style = "color: black; font-weight: bolder">We help you keep track of your farming equipment, material and produce.</p>
+                  <p style="font-size: x-large; font-weight: bolder;"><a href="public/inventory.html" style="color: #00ACEE;">Go to feature &#8594;</a></p>
+               </div>
+               <div class="margin-bottom: 2em; col-sm-12 col-md-6 offset-md-1 offset-lg-1 col-lg-6 video-card" style="height: 300px; padding-top: 10%;background:linear-gradient(rgba(204,233,246,.5), rgba(204,233,246,.5)), url('public/img/weather.png');">
+                  <h4 style = "color: black; font-weight: bolder">Weather Forecast</h4>
+                  <p style = "color: black; font-weight: bolder">Get accurate short-term and long-term weather reports for all counties across Ethiopia</p>
+                  <p style="font-size: x-large; font-weight: bolder;"><a href="public/weather.html" style="color: #00ACEE;">Go to feature &#8594;</a></p>
+               </div>
+               <div class="col-sm-12 col-md-5 col-lg-5 video-card" style="height: 300px; padding-top: 10%;background:linear-gradient(rgba(234,215,191, 0.5), rgba(234,215,191,.5)), url('public/img/pest.png');">
+                  <h4 style = "color: black; font-weight: bolder">Smart Pest and Disease
+                     Recognition</h4>
+                  <p style = "color: black; font-weight: bolder">Quickly and accurately identify pests
+                     and diseases in animals and crops.</p>
+                     <p style="font-size: x-large; font-weight: bolder;"><a href="public/features.html" style="color: #00ACEE;">Go to feature &#8594;</a></p>
+               </div>
+               <div class="col-sm-12 col-md-6 offset-md-1 offset-lg-1 col-lg-6 video-card" style="height: 300px; padding-top: 10%;background:linear-gradient(rgba(254,220,252, 0.5), rgba(254,220,252,.5)), url('public/img/news.png');">
+                  <h4 style = "color: black; font-weight: bolder">News</h4>
+                  <p style = "color: black; font-weight: bolder">Get latest news on pest and disease outbreaks,
+                     best farming practices and insights from fellow
+                     farmers across the world.
+                  </p>
+                  <p style="font-size: x-large; font-weight: bolder;"><a href="public/news.html" style="color: #00ACEE;">Go to feature &#8594;</a></p>
+               </div>
+               
+            </div>
+         </div>
+          <!-- /.container-fluid -->
+          <!-- Sticky Footer -->
+          <footer class="sticky-footer">
+            <div class="container">
+               <div class="row no-gutters">
+                  <div class="col-lg-6 col-sm-6">
+                     <p class="mt-1 mb-0"><strong class="text-dark">By Yaoz inc.</strong>.</p>
+                  </div>
+                  <div class="col-lg-6 col-sm-6 text-right">
+                     <div class="app">
+                        <!-- <a href="#">E-Gebere</a> -->
+                        <a href="#"><img alt="" src="public/img/gebere_1.png"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+       </div>
+       <!-- /.content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+          <div class="modal-content">
+             <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+                </button>
+             </div>
+             <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+             <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <a class="btn btn-primary" onclick="logout('index.html');">Logout</a>
+             </div>
+          </div>
+       </div>
+    </div>
+
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+   <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-storage.js"></script>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="public/vendor/jquery/jquery.min.js"></script>
+    <script src="public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="public/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="public/vendor/owl-carousel/owl.carousel.js"></script>
+
+
+    <!-- Custom scripts for all pages-->
+    <script src="public/js/custom.js"></script>
+    <!-- Index scripts (check authentication )-->
+    <script src="public/js/index.js"></script>
+    <script src="public/js/logout.js"></script>
+    <script src="public/js/loader.js" async defer></script>
+    </div>
+ </body>
+</html>
