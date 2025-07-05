@@ -2,20 +2,20 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Haile Melaku
+Haile Melaku
+Fullstack developer
 
 Show Contacts
 
 Email
-richard@example.com
+hailemelaku.yaoz@gmail.com
 
 Phone
-+1 (213) 352-2795
++2 (510) 421-6239
 
 Birthday
-June 23, 1982
+October 29, 2001
 
 Location
 Sacramento, California, USA
